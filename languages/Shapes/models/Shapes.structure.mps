@@ -46,7 +46,14 @@
     <property role="EcuMT" value="7689579725819767456" />
     <property role="TrG5h" value="Shape" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7pK1nxTg6S_" role="1TKVEi">
+      <property role="IQ2ns" value="8534327308855569957" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="color" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7pK1nxTg6Sn" resolve="ColorReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6EQS0jXy6Ey">
     <property role="EcuMT" value="7689579725819767458" />
@@ -94,7 +101,7 @@
     <property role="EcuMT" value="7689579725819767466" />
     <property role="TrG5h" value="Canvas" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6EQS0jXy6EH" role="1TKVEi">
       <property role="IQ2ns" value="7689579725819767469" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -140,6 +147,27 @@
       <property role="IQ2nx" value="1892389972765710853" />
       <property role="TrG5h" value="z2" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1D37EtBdPC7">
+    <property role="EcuMT" value="1892389972765792775" />
+    <property role="TrG5h" value="Color" />
+    <property role="34LRSv" value="color" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1D37EtBdPC8" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7pK1nxTg6Sn">
+    <property role="EcuMT" value="8534327308855569943" />
+    <property role="TrG5h" value="ColorReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="7pK1nxTg6Sp" role="1TKVEi">
+      <property role="IQ2ns" value="8534327308855569945" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1D37EtBdPC7" resolve="Color" />
     </node>
   </node>
 </model>

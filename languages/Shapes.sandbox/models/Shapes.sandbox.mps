@@ -20,6 +20,14 @@
       <concept id="7689579725819767466" name="Shapes.structure.Canvas" flags="ng" index="2nfCEI">
         <child id="7689579725819767469" name="shapes" index="2nfCED" />
       </concept>
+      <concept id="1892389972765710831" name="Shapes.structure.Triangle" flags="ng" index="1Xtgt8">
+        <property id="1892389972765710853" name="z2" index="1Xtgiy" />
+        <property id="1892389972765710852" name="z1" index="1Xtgiz" />
+        <property id="1892389972765710851" name="y2" index="1Xtgi$" />
+        <property id="1892389972765710850" name="y1" index="1Xtgi_" />
+        <property id="1892389972765710849" name="x2" index="1XtgiA" />
+        <property id="1892389972765710848" name="x1" index="1XtgiB" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
@@ -38,6 +46,14 @@
       <property role="2nfCEz" value="100" />
       <property role="2nfCEG" value="200" />
       <property role="2nfCEH" value="50" />
+    </node>
+    <node concept="1Xtgt8" id="1D37EtBdPC5" role="2nfCED">
+      <property role="1XtgiB" value="20" />
+      <property role="1XtgiA" value="20" />
+      <property role="1Xtgi_" value="20" />
+      <property role="1Xtgi$" value="30" />
+      <property role="1Xtgiz" value="25" />
+      <property role="1Xtgiy" value="50" />
     </node>
   </node>
 </model>

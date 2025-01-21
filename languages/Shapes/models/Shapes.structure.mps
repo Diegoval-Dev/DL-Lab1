@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -112,6 +113,9 @@
     <node concept="PrWs8" id="6EQS0jXy6EF" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="38Zf8linLcA" role="PzmwI">
+      <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1D37EtBdxBJ">
     <property role="EcuMT" value="1892389972765710831" />
@@ -128,6 +132,11 @@
       <property role="TrG5h" value="x2" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="38Zf8likEJY" role="1TKVEl">
+      <property role="IQ2nx" value="3620679168738634750" />
+      <property role="TrG5h" value="x3" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="1TJgyi" id="1D37EtBdxC2" role="1TKVEl">
       <property role="IQ2nx" value="1892389972765710850" />
       <property role="TrG5h" value="y1" />
@@ -138,14 +147,9 @@
       <property role="TrG5h" value="y2" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyi" id="1D37EtBdxC4" role="1TKVEl">
-      <property role="IQ2nx" value="1892389972765710852" />
-      <property role="TrG5h" value="z1" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="1D37EtBdxC5" role="1TKVEl">
-      <property role="IQ2nx" value="1892389972765710853" />
-      <property role="TrG5h" value="z2" />
+    <node concept="1TJgyi" id="38Zf8likEJZ" role="1TKVEl">
+      <property role="IQ2nx" value="3620679168738634751" />
+      <property role="TrG5h" value="y3" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>

@@ -20,5 +20,14 @@
   <node concept="1Xt4iw" id="7pK1nxTg6S8">
     <property role="TrG5h" value="white" />
   </node>
+  <node concept="1Xt4iw" id="7pK1nxTgp9g">
+    <property role="TrG5h" value="blue" />
+  </node>
+  <node concept="1Xt4iw" id="7pK1nxTgp9h">
+    <property role="TrG5h" value="green" />
+  </node>
+  <node concept="1Xt4iw" id="7pK1nxTgp9l">
+    <property role="TrG5h" value="black" />
+  </node>
 </model>
 

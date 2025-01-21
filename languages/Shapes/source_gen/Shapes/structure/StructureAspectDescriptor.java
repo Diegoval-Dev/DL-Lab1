@@ -30,6 +30,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   @Override
   public void reportDependencies(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.Dependencies deps) {
     deps.extendedLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core");
+    deps.extendedLanguage(0x4caf0310491e41f5L, 0x8a9b2006b3a94898L, "jetbrains.mps.execution.util");
   }
 
   @Override
@@ -69,6 +70,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Shapes", "Canvas", 0x1952f8d055204656L, 0xa76337b6f950f125L, 0x6ab6e004fd886aaaL);
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.parent(0x4caf0310491e41f5L, 0x8a9b2006b3a94898L, 0x40c1a7cb987d20d5L);
     b.origin("r:e0724b04-c2a3-4c55-a825-2434b0ecee7c(Shapes.structure)/7689579725819767466");
     b.version(3);
     b.aggregate("shapes", 0x6ab6e004fd886aadL).target(0x1952f8d055204656L, 0xa76337b6f950f125L, 0x6ab6e004fd886aa0L).optional(true).ordered(true).multiple(true).origin("7689579725819767469").done();
@@ -134,10 +136,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     b.property("x1", 0x1a431ea767361a00L).type(PrimitiveTypeId.INTEGER).origin("1892389972765710848").done();
     b.property("x2", 0x1a431ea767361a01L).type(PrimitiveTypeId.INTEGER).origin("1892389972765710849").done();
+    b.property("x3", 0x323f3c855252abfeL).type(PrimitiveTypeId.INTEGER).origin("3620679168738634750").done();
     b.property("y1", 0x1a431ea767361a02L).type(PrimitiveTypeId.INTEGER).origin("1892389972765710850").done();
     b.property("y2", 0x1a431ea767361a03L).type(PrimitiveTypeId.INTEGER).origin("1892389972765710851").done();
-    b.property("z1", 0x1a431ea767361a04L).type(PrimitiveTypeId.INTEGER).origin("1892389972765710852").done();
-    b.property("z2", 0x1a431ea767361a05L).type(PrimitiveTypeId.INTEGER).origin("1892389972765710853").done();
+    b.property("y3", 0x323f3c855252abffL).type(PrimitiveTypeId.INTEGER).origin("3620679168738634751").done();
     b.alias("triangle");
     return b.create();
   }
